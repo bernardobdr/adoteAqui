@@ -6,6 +6,9 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+.header {
+  background: #ffbb11;
+}
 .header::after {
   border-bottom: 2px solid #000;
 }
@@ -26,19 +29,19 @@ body {
   font-weight: bold;
 }
 .menu-nav a {
-  color: #d99e82;
+  color: #000;
   font-size: 18px;
   text-decoration: none;
 }
 .menu-nav a:hover {
-  color: #000;
+  color: #d99e82;
 }
 .principal {
   border: 1px solid #d99e82;
 }
-.pictures {
+.secao-imagens {
   max-width: 960px;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 .lista-imagem {
   display: flex;
@@ -46,11 +49,9 @@ body {
   flex-wrap: wrap;
 }
 .imagem {
-  max-width: 31%;
-  box-sizing: border-box;
-  height: 300px;
-  margin-bottom: 30px;
-  border-radius: 1px solid;
+  max-width: 30%;
+  max-height: 300px;
+  margin: 30px 2px;
 }
 .footer {
   display: flex;
