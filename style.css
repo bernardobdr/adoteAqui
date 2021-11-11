@@ -55,7 +55,7 @@ body {
   margin: 30px 2px;
 }
 .imagem:hover {
-  width: 31%;
+  border: 2px solid #ffbb11;
 }
 .footer {
   display: flex;
