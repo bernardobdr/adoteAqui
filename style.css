@@ -18,7 +18,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
+  height: 120px;
 }
 .menu-nav ul {
   display: flex;
@@ -34,7 +34,7 @@ body {
   text-decoration: none;
 }
 .menu-nav a:hover {
-  color: #d99e82;
+  color: #fff;
 }
 .principal {
   border: 1px solid #d99e82;
@@ -65,4 +65,17 @@ footer p {
   color: #764701;
   font-size: 20px;
   padding-top: 20px;
+}
+@media (max-width: 700px) {
+  .lista-imagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
